@@ -1,6 +1,6 @@
 # Docker PlatformIO Core
 This is a Dockerfile packaging [PlatformIO](http://platformio.org/) Core. The image contains the PlatformIO Command Line Interface for developing software for embedded devices and IoT projects. 
-To speedup development, this image has the platform espressif8266 already installed.
+To speedup development, this image has the platform espressif8266 already installed. Added **git** to container so that packages can be pulled directly from their source. 
 
 ## Usage
 Add the script platformio.sh to your path and run platformio < options >. 
